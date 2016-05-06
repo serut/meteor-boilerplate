@@ -16,16 +16,16 @@ standard-minifier-js    # JS minifier run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 
 accounts-password
-angular-templates
-less
 aldeed:collection2
 aldeed:simple-schema
+angular2-compilers
+less
 mdg:validated-method
+mdg:validation-error
 pbastowski:angular-babel
 practicalmeteor:mocha
 tunifight:loggedin-mixin
+urigo:angular-blaze-template
 useraccounts:core
 useraccounts:unstyled
 xolvio:cleaner
-mdg:validation-error
-urigo:angular-blaze-template

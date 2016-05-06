@@ -10,7 +10,7 @@ This is specific for [AngularJS 1.x][3] and is a branch off [trajano/meteor-boil
 
 1. `git clone https://github.com/trajano/meteor-boilerplate.git`
 2. `cd meteor-boilerplate`
-3. `meteor npm update`
+3. `meteor npm install`
 4. `meteor`
 
 ## Features
