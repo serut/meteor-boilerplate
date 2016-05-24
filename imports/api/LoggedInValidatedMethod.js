@@ -24,7 +24,9 @@ class LoggedInValidatedMethod extends ValidatedMethod {
       checkLoggedInError: {
         error: 'notLoggedin'
       },
-      validate: new SimpleSchema(schema).validator()
+      validate: new SimpleSchema(schema).validator({
+        clean: true
+      })
     }))
   }
 }
