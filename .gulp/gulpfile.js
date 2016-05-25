@@ -64,7 +64,8 @@ gulp.task('doc-js', function (cb) {
         excludePattern: '(^|\\/|\\\\)_'
       },
       opts: {
-        destination: './public/apidocs'
+        destination: './public/apidocs',
+        disablePackagePath: true
       },
       plugins: [
         'plugins/markdown'
