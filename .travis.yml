@@ -8,6 +8,7 @@ before_install:
 
 before_script:
   - meteor npm update
+  - npm install -g spacejam
 
 cache:
   directories:
@@ -15,7 +16,5 @@ cache:
 
 script:
   - meteor npm run gulp
-  - meteor remove practicalmeteor:mocha
-  - meteor add dispatch:mocha-phantomjs
-  - meteor test --once --driver-package dispatch:mocha-phantomjs
+  - spacejam test --driver-package practicalmeteor:mocha
   - meteor build $HOME/build.tgz
